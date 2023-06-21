@@ -8,5 +8,5 @@ Feature Engineering
 2. Time
 3. Category
 
-1. Correlation with next/previous samples after sorting by t_max, t_min
-2. Correlation with next/previous samples after sorting by numerical values
+a. Correlation with next/previous samples after sorting by t_max, t_min
+b. Correlation with next/previous samples after sorting by numerical values
