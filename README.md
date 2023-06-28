@@ -8,11 +8,8 @@ Preprocessing:
   Get to know the dataset (link)
 
 Feature Engineering:
-  1. Numerical
-     Selected the most important numerical features by XGBoost.
-  2. Time
-     Max-min time per station, per line
-  3. Category
-
+  1. Selected the most important numerical features by XGBoost.
+  2. Max-min time per station, per line
+ 
 Modelling:
   
