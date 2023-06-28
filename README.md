@@ -1,14 +1,18 @@
 # Bosch-Production-Line-Performance
-Preprocessing
+This repo consists of the solution for the competition Bosch Production Line Performance from Kaggle (Dataset Link -> https://www.kaggle.com/c/bosch-production-line-performance/data).
 
-1. The raw data contains plenty of missing data. Sparsity is around 80% on average, so this allows much faster feature generation with a smaller memory footprint.
-2. Creating a look-up-table that helps merging data between the numeric, categorical and timestamp datasets.
-3. Clustering all samples based on the path they traversed through the manufacturing lines.
+The dataset is one of the largest datasets on Kaggle in terms of features and hence it is processed and used in the form of chunks
 
-Feature Engineering
-1. Numerical
-2. Time
-3. Category
+Preprocessing:
 
-a. Correlation with next/previous samples after sorting by t_max, t_min
-b. Correlation with next/previous samples after sorting by numerical values
+  Get to know the dataset (link)
+
+Feature Engineering:
+  1. Numerical
+     Selected the most important numerical features by XGBoost.
+  2. Time
+     Max-min time per station, per line
+  3. Category
+
+Modelling:
+  
