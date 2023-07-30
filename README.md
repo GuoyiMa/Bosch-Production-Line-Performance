@@ -12,7 +12,7 @@ The dataset is one of the largest datasets on Kaggle in terms of features and he
   #### 2.2 Preprocessed the categorical features [delete T](https://github.com/GuoyiMa/Bosch-Production-Line-Performance/blob/main/code/delete%20T.ipynb) and selected the most important categorical features by XGBoost[Categorical Classifier](https://github.com/GuoyiMa/Bosch-Production-Line-Performance/blob/main/code/Categorical%20Classifier.ipynb).
   #### 2.3 Max-min time per station, per line [second part of the modeling notebook](https://github.com/GuoyiMa/Bosch-Production-Line-Performance/blob/main/code/modeling.ipynb).
  
-### 3. Modelling [code](https://github.com/GuoyiMa/Bosch-Production-Line-Performance/blob/main/code/modeling.ipynb):
+### 3. Modelling [Modeling code](https://github.com/GuoyiMa/Bosch-Production-Line-Performance/blob/main/code/modeling.ipynb):
   Matthews correlation coefficient(mcc) is used as the evaluation metric.
   
   MCC obtained using the RandomForest is 0.39918 on private leaderboard and 0.38269 on public leaderboard.
